@@ -54,20 +54,8 @@ const stacks = [
 		alt: "TypeScript",
 	},
 	{
-		icon: GO,
-		alt: "GoLang",
-	},
-	{
-		icon: DOCKER,
-		alt: "Docker",
-	},
-	{
 		icon: MONGODB,
 		alt: "MongoDB",
-	},
-	{
-		icon: NEST,
-		alt: "NestJS",
 	},
 	{
 		icon: NEXT,
@@ -78,81 +66,12 @@ const stacks = [
 		alt: "NodeJS",
 	},
 	{
-		icon: POSTGRE,
-		alt: "PostgreSQL",
-	},
-	{
 		icon: REACT,
 		alt: "ReactJS",
 	},
 	{
-		icon: REDIS,
-		alt: "Redis",
-	},
-	{
-		icon: SQLITE,
-		alt: "SQLite",
-	},
-	{
-		icon: HANDLEBARS,
-		alt: "Handlebars",
-	},
-	{
-		icon: LINUX,
-		alt: "LINUX",
-	},
-	{
-		icon: PYTHON,
-		alt: "Python",
-	},
-	{
-		icon: SCSS,
-		alt: "SCSS",
-	},
-	{
 		icon: GITHUB,
 		alt: "GitHub",
-	},
-	{
-		icon: GM8,
-		alt: "GameMaker 8",
-	},
-	{
-		icon: GMS1,
-		alt: "GameMaker: Studio 1",
-	},
-	{
-		icon: GMS2,
-		alt: "GameMaker: Studio 2",
-	},
-	{
-		icon: CPP,
-		alt: "C++",
-	},
-
-	{
-		icon: WEBPACK,
-		alt: "Webpack",
-	},
-	{
-		icon: RUST,
-		alt: "Rust",
-	},
-	{
-		icon: RUBY,
-		alt: "Ruby",
-	},
-	{
-		icon: CRYSTAL,
-		alt: "Crystal",
-	},
-	{
-		icon: CLOJURE,
-		alt: "Clojure",
-	},
-	{
-		icon: VLANG,
-		alt: "VLang",
 	},
 ];
 

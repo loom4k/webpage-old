@@ -10,19 +10,11 @@ import { FC } from "react";
 
 const socials = [
 	{
-		href: "https://github.com/barbarbar338",
+		href: "https://github.com/loom4k",
 		icon: faGithub,
 	},
 	{
-		href: "https://instagram.com/ben_baris.d",
-		icon: faInstagram,
-	},
-	{
-		href: "https://www.youtube.com/channel/UC0tkTcxf5F3DdR3RJtaAuXg",
-		icon: faYoutube,
-	},
-	{
-		href: "https://discord.com/invite/BjEJFwh",
+		href: "https://discord.gg/9uUSJeK933",
 		icon: faDiscord,
 	},
 ];
@@ -34,6 +26,12 @@ export const Footer: FC = () => {
 				<div className="mt-2">
 					&copy; {new Date().getFullYear()} All rights reserved. Made
 					with ❤ by{" "}
+					<Link href="https://github.com/loom4k">
+						<span className="text-purple-600 cursor-pointer">
+							loom4k
+						</span>
+					</Link>{" "}
+					with the help of{" "}
 					<Link href="https://github.com/barbarbar338">
 						<span className="text-purple-600 cursor-pointer">
 							barbarbar338
@@ -52,7 +50,7 @@ export const Footer: FC = () => {
 						</span>
 					</Link>
 				</div>
-				<div className="md:flex-auto md:flex-row-reverse mt-2 flex-row flex text-purple-600 dark:text-purple-400">
+				<div className="md:flex-auto md:flex-row-reverse mt-2 flex-row flex text-green-600 dark:text-green-400">
 					{socials.map((social, idx) => (
 						<Link key={idx} href={social.href}>
 							<span className="cursor-pointer w-6 mx-1">

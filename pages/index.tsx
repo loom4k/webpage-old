@@ -4,7 +4,7 @@ import { Hero } from "@components/Hero";
 import { About } from "@components/About";
 import { Layout } from "@components/Layout";
 import { Contact } from "@components/Contact";
-import { Projects } from "@components/Projects";
+// import { Projects } from "@components/Projects";
 import axios from "axios";
 
 export interface IIndexPage {
@@ -17,7 +17,6 @@ const IndexPage: NextPage<IIndexPage> = ({ repos }) => {
 			<Navbar />
 			<Hero />
 			<About />
-			<Projects repos={repos} />
 			<Contact />
 		</Layout>
 	);
@@ -25,7 +24,7 @@ const IndexPage: NextPage<IIndexPage> = ({ repos }) => {
 
 export default IndexPage;
 
-export async function getStaticProps() {
+/* export async function getStaticProps() {
 	const res = (
 		await axios.get(
 			"https://api.github.com/users/barbarbar338/repos?per_page=100",
@@ -40,4 +39,4 @@ export async function getStaticProps() {
 		},
 		revalidate: 60 * 15,
 	};
-}
+} */

@@ -13,7 +13,7 @@ export default class App extends NextApp {
 		const { Component, pageProps } = this.props;
 		return (
 			<ThemeProvider defaultTheme="dark" attribute="class">
-				<DefaultSeo titleTemplate="%s - Barış DEMİRCİ" />
+				<DefaultSeo titleTemplate="%s - loom4k" />
 				<Component {...pageProps} />
 				<ToastContainer
 					position="bottom-right"

@@ -17,14 +17,14 @@ export const Hero: FC = () => {
 						<div className="w-full text-center lg:text-left">
 							<div className="max-w-md mx-auto lg:mx-0">
 								<h1 className="my-3 md:mt-0 text-4xl lg:text-5xl text-black dark:text-white font-bold">
-									Barış DEMİRCİ
+									Loïk Mallat
 								</h1>
 							</div>
 							<div className="max-w-sm mx-auto lg:mx-0">
 								<p className="mb-6 text-gray-700 dark:text-gray-300 leading-loose">
-									Back-end developer with{" "}
+									Full-stack developer with{" "}
 									<span className="text-purple-600 dark:text-purple-300">
-										over {new Date().getFullYear() - 2014}{" "}
+										over {new Date().getFullYear() - 2019}{" "}
 										years
 									</span>{" "}
 									experience. More interested with{" "}
@@ -34,14 +34,8 @@ export const Hero: FC = () => {
 										</span>
 									</Link>
 									,{" "}
-									<Link href="https://nestjs.com/">
-										<span className="text-red-600 dark:text-red-400 cursor-pointer">
-											NestJS
-										</span>
-									</Link>
-									,{" "}
 									<Link href="https://reactjs.org/">
-										<span className="text-blue-600 dark:text-blue-400 cursor-pointer">
+										<span className="text-red-600 dark:text-red-400 cursor-pointer">
 											ReactJS
 										</span>
 									</Link>
@@ -52,9 +46,9 @@ export const Hero: FC = () => {
 										</span>
 									</Link>{" "}
 									and{" "}
-									<Link href="https://golang.org/">
+									<Link href="https://microsoft.com/">
 										<span className="text-blue-600 dark:text-blue-300 cursor-pointer">
-											GoLang
+											C#
 										</span>
 									</Link>
 									.
@@ -69,7 +63,7 @@ export const Hero: FC = () => {
 											whileTap={{
 												scale: 0.95,
 											}}
-											className="cursor-pointer inline-block mb-3 lg:mb-0 lg:mr-3 w-full lg:w-auto py-2 px-6 leading-loose bg-purple-600 hover:bg-purple-700 text-white font-semibold rounded-l-xl rounded-t-xl transition duration-200"
+											className="cursor-pointer inline-block mb-3 lg:mb-0 lg:mr-3 w-full lg:w-auto py-2 px-6 leading-loose text-gray-900 bg-green-400 hover:bg-white text-gray-500 font-semibold rounded-l-xl rounded-t-xl transition duration-200"
 										>
 											About Me
 										</m.span>
@@ -109,7 +103,7 @@ export const Hero: FC = () => {
 								<img
 									loading="lazy"
 									className="md:h-128 md:w-128 w-full max-w-lg object-cover rounded-3xl md:rounded-br-none"
-									src="https://avatars.githubusercontent.com/u/35371155"
+									src="https://i.imgur.com/ReT2l6r.gif"
 									alt="Avatar"
 									draggable={false}
 									width="auto"

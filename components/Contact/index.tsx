@@ -12,29 +12,19 @@ import { toast } from "react-toastify";
 
 const socials = [
 	{
-		href: "mailto:demirci.baris38@gmail.com",
+		href: "mailto:loom4k.twitch@gmail.com",
 		icon: faEnvelope,
-		name: "demirci.baris38@gmail.com",
+		name: "loom4k.twitch@gmail.com",
 	},
 	{
-		href: "https://github.com/barbarbar338",
+		href: "https://github.com/loom4k",
 		icon: faGithub,
-		name: "@barbarbar338",
+		name: "@loom4k",
 	},
 	{
-		href: "https://instagram.com/ben_baris.d",
-		icon: faInstagram,
-		name: "@ben_baris.d",
-	},
-	{
-		href: "https://www.youtube.com/channel/UC0tkTcxf5F3DdR3RJtaAuXg",
-		icon: faYoutube,
-		name: "Barış DEMİRCİ",
-	},
-	{
-		href: "https://discord.com/invite/BjEJFwh",
+		href: "https://discord.com/users/534165671651573781",
 		icon: faDiscord,
-		name: "discord.gg/BjEJFwh",
+		name: "discord",
 	},
 ];
 
@@ -60,11 +50,11 @@ export const Contact: FC = () => {
 		if (!name || !mail || !message)
 			return toast.error("❌ Please fill out the form completely.");
 		window.open(
-			`mailto:demirci.baris38@gmail.com?body=${encodeURIComponent(
+			`mailto:loom4k.twitch@gmail.com?body=${encodeURIComponent(
 				`Hey, It's ${name} (${mail})\n\n${message}`,
 			)}`,
 		);
-		toast.success("🦄 Thanks for your message!");
+		toast.success("Thanks for your message!");
 	};
 
 	return (
@@ -73,7 +63,7 @@ export const Contact: FC = () => {
 			className="py-10 px-4 bg-white dark:bg-gray-900 text-black dark:text-white"
 		>
 			<h1 className="text-4xl mb-10 text-center font-semibold font-heading">
-				Contact <span className="text-purple-600">Me</span>
+				Contact <span className="text-green-500">Me</span>
 			</h1>
 			<div className="w-full max-w-2xl mx-auto mb-12">
 				<form onSubmit={onSubmit}>
@@ -112,7 +102,7 @@ export const Contact: FC = () => {
 							whileTap={{
 								scale: 0.98,
 							}}
-							className="inline-block w-full py-4 px-8 leading-none text-white bg-purple-600 hover:bg-purple-700 font-semibold rounded shadow"
+							className="inline-block w-full py-4 px-8 leading-none text-white bg-green-500 hover:bg-green-600 font-semibold rounded shadow"
 						>
 							Submit
 						</m.button>
@@ -130,7 +120,7 @@ export const Contact: FC = () => {
 						<div className="cursor-pointer px-4 flex items-center">
 							<FontAwesomeIcon
 								icon={social.icon}
-								className="inline-block w-6 h-6 mr-3 text-purple-600"
+								className="inline-block w-6 h-6 mr-3 text-white-600"
 							/>
 							<span>{social.name}</span>
 						</div>

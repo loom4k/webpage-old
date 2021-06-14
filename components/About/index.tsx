@@ -1,8 +1,8 @@
 import { FC } from "react";
 import TailwindSVG from "@assets/elements/tailwind.svg";
-import NestSVG from "@assets/elements/nest.svg";
 import MongoDBSVG from "@assets/elements/mongodb.svg";
-import NextSVG from "@assets/elements/next.svg";
+import CsSVG from "@assets/elements/cs.svg";
+import ReactSVG from "@assets/elements/react.svg"
 import { Stack } from "@components/Stack";
 import Tilt from "react-tilt";
 
@@ -16,27 +16,25 @@ export const About: FC = () => {
 				<div className="flex flex-wrap items-center">
 					<div className="w-full lg:w-1/2 mb-12 lg:mb-0">
 						<div className="max-w-md lg:mx-auto">
-							<span className="text-purple-600 font-bold">
-								Being a back-end developer...
+							<span className="text-green-500 font-bold">
+								Being a Full-Stack dev
 							</span>
 							<h2 className="my-2 text-4xl lg:text-5xl font-bold font-heading text-black dark:text-white">
 								Who am I{" "}
-								<span className="text-purple-600">&amp;</span>{" "}
+								<span className="text-green-500">&amp;</span>{" "}
 								how did I get here
 							</h2>
 							<p className="mb-6 text-gray-500 leading-loose">
-								Hello, I am Barış DEMİRCİ (a.k.a.{" "}
-								<span className="text-purple-600">
-									barbarbar338
+								Hello, I am Loïk Mallat (a.k.a.{" "}
+								<span className="text-green-500">
+									loom4k
 								</span>
-								). I am a student from Turkey who codes for fun.
-								I have been in coding since 2014 and I started
-								my career first by making simple websites. I
-								have been using JavaScript (Node &amp;
-								Client-side) for{" "}
-								{new Date().getFullYear() - 2015} years. Now I'm
-								trying to produce lots of open source projects
-								and working as freelancer.
+								). I am a High-School Student from Canada, Montreal who 
+								codes for personnal projects and for school (NodeJS &amp;
+								React) for{" "}
+								{new Date().getFullYear() - 2020} years now. I am currently
+								working on Node Modules for Developpers as well as other personnal
+								projects.
 							</p>
 							<ul className="text-gray-500 font-bold">
 								<li className="flex mb-4">
@@ -53,7 +51,7 @@ export const About: FC = () => {
 										></path>
 									</svg>
 									<span>
-										JavaScript (Node &amp; Client-Side)
+										JavaScript (NodeJS &amp; Html)
 									</span>
 								</li>
 								<li className="flex mb-4">
@@ -84,36 +82,6 @@ export const About: FC = () => {
 											clipRule="evenodd"
 										></path>
 									</svg>
-									<span>GoLang</span>
-								</li>
-								<li className="flex mb-4">
-									<svg
-										className="mr-2 w-6 h-6 text-green-400"
-										xmlns="http://www.w3.org/2000/svg"
-										viewBox="0 0 20 20"
-										fill="currentColor"
-									>
-										<path
-											fillRule="evenodd"
-											d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-											clipRule="evenodd"
-										></path>
-									</svg>
-									<span>SQL (Postgre &amp; Sqlite)</span>
-								</li>
-								<li className="flex mb-4">
-									<svg
-										className="mr-2 w-6 h-6 text-green-400"
-										xmlns="http://www.w3.org/2000/svg"
-										viewBox="0 0 20 20"
-										fill="currentColor"
-									>
-										<path
-											fillRule="evenodd"
-											d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
-											clipRule="evenodd"
-										></path>
-									</svg>
 									<span>NoSQL (MongoDB &amp; Redis)</span>
 								</li>
 							</ul>
@@ -130,10 +98,10 @@ export const About: FC = () => {
 								}}
 							>
 								<div className="mb-4 md:mb-8 py-6 pl-6 pr-4 shadow-md rounded bg-gray-200 dark:bg-gray-800">
-									<span className="mb-4 inline-block p-3 rounded-lg bg-red-500 dark:bg-red-800">
+									<span className="mb-4 inline-block p-3 rounded-lg bg-aqua-50 dark:bg-aqua-50">
 										<img
 											loading="lazy"
-											src={NestSVG}
+											src={ReactSVG}
 											className="w-10 h-10"
 											draggable={false}
 											alt="NestJS"
@@ -142,7 +110,7 @@ export const About: FC = () => {
 										/>
 									</span>
 									<h3 className="mb-2 text-xl sm:text-2xl font-bold font-heading text-black dark:text-white">
-										NestJS
+										React
 									</h3>
 									<p className="text-gray-700 dark:text-gray-300 leading-loose">
 										About {new Date().getFullYear() - 2020}{" "}
@@ -174,7 +142,7 @@ export const About: FC = () => {
 										MongoDB
 									</h3>
 									<p className="text-gray-700 dark:text-gray-300 leading-loose">
-										About {new Date().getFullYear() - 2015}{" "}
+										About {new Date().getFullYear() - 2020}{" "}
 										year(s)
 									</p>
 								</div>
@@ -190,10 +158,10 @@ export const About: FC = () => {
 								}}
 							>
 								<div className="mb-4 md:mb-8 py-6 pl-6 pr-4 shadow-md rounded-lg bg-gray-200 dark:bg-gray-800">
-									<span className="mb-4 inline-block p-3 rounded bg-gray-500 dark:bg-gray-700">
+									<span className="mb-4 inline-block p-3 rounded bg-purple-900 dark:bg-purple-900">
 										<img
 											loading="lazy"
-											src={NextSVG}
+											src={CsSVG}
 											className="w-10 h-10"
 											draggable={false}
 											alt="NextJS"
@@ -202,7 +170,7 @@ export const About: FC = () => {
 										/>
 									</span>
 									<h3 className="mb-2 text-xl sm:text-2xl font-bold font-heading text-black dark:text-white">
-										NextJS
+										C#
 									</h3>
 									<p className="text-gray-700 dark:text-gray-300 leading-loose">
 										About {new Date().getFullYear() - 2019}{" "}

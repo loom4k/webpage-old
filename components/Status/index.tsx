@@ -4,7 +4,7 @@ import Tippy from "@tippyjs/react";
 
 export const Status: FC = () => {
 	const { loading, status } = useLanyard({
-		userId: "331846231514939392",
+		userId: "534165671651573781",
 		socket: true,
 	}) as LanyardWebsocket;
 
@@ -46,7 +46,7 @@ export const Status: FC = () => {
 			case "Spotify":
 				return `Listening to ${filtered.details} by ${filtered.state} from ${filtered.assets.large_text} on Spotify.`;
 			case "Visual Studio Code":
-				return `${filtered.details} in Visual Studio Code. (${filtered.state})`;
+				return `${filtered.details}. (${filtered.state})`;
 			default:
 				if (filtered.name) return `Playing ${filtered.name}`;
 				return "Online";
