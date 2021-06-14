@@ -30,7 +30,7 @@ export const Footer: FC = () => {
 						<span className="text-purple-600 cursor-pointer">
 							barbarbar338{" "}
 						</span>
-					</Link>and edited by{" "}
+					</Link>and {" "}
 					<Link href="https://github.com/loom4k">
 						<span className="text-purple-600 cursor-pointer">
 							loom4k
