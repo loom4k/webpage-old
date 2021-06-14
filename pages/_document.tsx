@@ -10,36 +10,36 @@ export default class CustomDocument extends Document {
 					<meta charSet="utf-8" />
 					<meta name="HandheldFriendly" content="true" />
 					<meta name="robots" content="INDEX, FOLLOW" />
-					<meta name="copyright" content="Barış DEMİRCİ" />
+					<meta name="copyright" content="Loïk Mallat" />
 					<meta name="theme-color" content="#ffa33b" />
 					<meta
 						name="author"
-						content="Barış DEMİRCİ, demirci.baris38@gmail.com"
+						content="Loïk Mallat, loom4k.twitch@gmail.com"
 					/>
 					<meta
 						name="description"
-						content="Welcome to barbarbar338's profile!"
+						content="Welcome to loom4k's profile!"
 					/>
-					<meta name="og:title" content="barbarbar338" />
+					<meta name="og:title" content="loom4k" />
 					<meta
 						name="og:site_name"
-						content="barbarbar338"
+						content="loom4k"
 						title="title"
 					/>
 					<meta
 						name="og:url"
-						content="https://barbarbar338.fly.dev/"
+						content="https://loom4k.fly.dev/"
 					/>
 					<meta
 						name="keywords"
-						content="baris, demirci, barbarbar338, barbar, 338, hammer, projecthammer"
+						content="loïk, loik, mallat, dev, loom4k"
 					/>
 					<meta name="og:image" content={Avatar} />
 					<meta name="twitter:image" content={Favicon} />
 					<link rel="icon" href={Favicon} />
 					<link
 						rel="canonical"
-						href="https://barbarbar338.fly.dev/"
+						href="https://loom4k.fly.dev/"
 					/>
 					<link
 						href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&amp;display=swap"

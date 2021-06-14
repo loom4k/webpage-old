@@ -32,7 +32,7 @@ export const About: FC = () => {
 								). I am a High-School Student from Canada, Montreal who 
 								codes for personnal projects and for school (NodeJS &amp;
 								React) for{" "}
-								{new Date().getFullYear() - 2020} years now. I am currently
+								{new Date().getFullYear() - 2019} years now. I am currently
 								working on Node Modules for Developpers as well as other personnal
 								projects.
 							</p>

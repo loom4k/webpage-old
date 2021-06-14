@@ -17,6 +17,7 @@ body {
 
 ::-webkit-scrollbar-thumb {
 	@apply bg-green-500;
+	border-radius: 3px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
