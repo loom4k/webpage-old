@@ -162,7 +162,7 @@ export const About: FC = () => {
 										<img
 											loading="lazy"
 											src={CsSVG}
-											className="w-10 h-10"
+											className="w-10 h-10 bg-purple-900"
 											draggable={false}
 											alt="NextJS"
 											width="auto"
