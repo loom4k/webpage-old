@@ -42,7 +42,7 @@ export const Accomplishements: FC = () => {
 	
 	return (
 		<section
-			id="about"
+			id="projects"
 			className="py-10 min-h-screen bg-white dark:bg-gray-900"
 		>
 			<div className="container mx-auto px-4">

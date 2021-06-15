@@ -251,7 +251,7 @@ export const Navbar: FC = () => {
 									whileTap={{
 										scale: 0.95,
 									}}
-									className="cursor-pointer block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-pink-600 hover:bg-pink-700 rounded-l-xl rounded-t-xl"
+									className="cursor-pointer block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-green-600 hover:bg-green-700 rounded-l-xl rounded-t-xl"
 								>
 									Contact
 								</m.span>

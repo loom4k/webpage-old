@@ -5,8 +5,7 @@ import { About } from "@components/About";
 import { Layout } from "@components/Layout";
 import { Contact } from "@components/Contact";
 import { Accomplishements } from "@components/Accomplishements"
-import { Projects } from "@components/Projects"
-// import { Projects } from "@components/Projects";
+import { Projects } from "@components/Projects";
 import axios from "axios";
 
 export interface IIndexPage {
