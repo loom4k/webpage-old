@@ -48,7 +48,7 @@ export const Status: FC = () => {
 			case "Visual Studio Code":
 				return `${filtered.details}. (${filtered.state})`;
 			case "IntelliJ IDEA Ultimate":
-				return `${filtered.details}. (${filtered.state})`;
+				return `Working on IntelliJ IDEA Ultimate. (${filtered.state})`;
 			default:
 				if (filtered.name) return `Playing ${filtered.name}`;
 				return "Online";
