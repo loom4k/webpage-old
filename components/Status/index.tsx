@@ -47,6 +47,8 @@ export const Status: FC = () => {
 				return `Listening to ${filtered.details} by ${filtered.state} from ${filtered.assets.large_text} on Spotify.`;
 			case "Visual Studio Code":
 				return `${filtered.details}. (${filtered.state})`;
+			case "IntelliJ IDEA Ultimate":
+				return `${filtered.details}. (${filtered.state})`;
 			default:
 				if (filtered.name) return `Playing ${filtered.name}`;
 				return "Online";
