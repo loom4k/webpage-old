@@ -168,7 +168,7 @@ export const Navbar: FC = () => {
 						</Fragment>
 					))}
 				</ul>
-				<Link href="#contact">
+				<Link href="https://forum.loom4k.me">
 					<m.span
 						whileHover={{
 							scale: 1.1,
@@ -178,7 +178,7 @@ export const Navbar: FC = () => {
 						}}
 						className="cursor-pointer hidden lg:inline-block py-2 px-6 bg-green-400 hover:bg-green-600 text-sm text-white font-bold rounded-l-xl rounded-t-xl transition duration-200"
 					>
-						Contact
+						Forums
 					</m.span>
 				</Link>
 			</nav>
