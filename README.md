@@ -1,7 +1,7 @@
 # 🔥 My Personal Web Page Source
 
 Made with ❤ using [TypeScript](https://www.typescriptlang.org/), [NextJS](https://nextjs.org/) and [TailwindCSS](https://tailwindcss.com/)
-See https://loom4k.vercel.app for live demo
+See https://loom4k.me for live demo
 ![preview](assets/preview.png)
 # 🏃‍♀️ Running
 
