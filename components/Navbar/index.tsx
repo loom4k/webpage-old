@@ -32,6 +32,10 @@ const links = [
 		name: "Projects",
 		href: "#projects",
 	},
+	{
+		name: "Secret Stuff",
+		href: "https://shrekis.life/EEMHDM", // shhh 🤫
+	},
 ];
 
 const socials = [
