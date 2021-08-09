@@ -16,6 +16,11 @@ module.exports = withPlugins([[optimizedImages, { optimizeImages: false }]], {
 				destination: "https://discord.gg/9uUSJeK933",
 				permanent: true,
 			},
+			{
+				source: "/cryptosim",
+				destination: "https://github.com/loom4k/cryptosim-api",
+				permanent: true,
+			},
 		];
 	},
 	future: {
