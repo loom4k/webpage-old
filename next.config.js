@@ -12,13 +12,18 @@ module.exports = withPlugins([[optimizedImages, { optimizeImages: false }]], {
 				permanent: true,
 			},
 			{
-				source: "/discord",
-				destination: "https://discord.gg/9uUSJeK933",
+				source: "/twitch",
+				destination: "https://twitch.tv/loom4k",
 				permanent: true,
 			},
 			{
-				source: "/cryptosim",
-				destination: "https://github.com/loom4k/cryptosim-api",
+				source: "/discord",
+				destination: "https://discord.gg/UEpXxAw8nP",
+				permanent: true,
+			},
+			{
+				source: "/exchange",
+				destination: "https://discord.gg/9zj8sWsKzW",
 				permanent: true,
 			},
 		];
