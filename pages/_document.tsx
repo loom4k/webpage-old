@@ -14,7 +14,7 @@ export default class CustomDocument extends Document {
 					<meta name="theme-color" content="#ffa33b" />
 					<meta
 						name="author"
-						content="Loïk Mallat, loom4k.twitch@gmail.com"
+						content="Loïk Mallat, contact@loom4k.m4"
 					/>
 					<meta
 						name="description"
@@ -28,7 +28,7 @@ export default class CustomDocument extends Document {
 					/>
 					<meta
 						name="og:url"
-						content="https://loom4k.fly.dev/"
+						content="https://loom4k.me/"
 					/>
 					<meta
 						name="keywords"
@@ -39,7 +39,7 @@ export default class CustomDocument extends Document {
 					<link rel="icon" href={Favicon} />
 					<link
 						rel="canonical"
-						href="https://loom4k.fly.dev/"
+						href="https://loom4k.me"
 					/>
 					<link
 						href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&amp;display=swap"
