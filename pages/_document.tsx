@@ -18,12 +18,12 @@ export default class CustomDocument extends Document {
 					/>
 					<meta
 						name="description"
-						content="Welcome to loom4k's profile!"
+						content="Welcome to loom4k's profile! Here you can take a look at all of his projects and more!"
 					/>
-					<meta name="og:title" content="loom4k" />
+					<meta name="og:title" content="View loom4k's website on Internet" />
 					<meta
 						name="og:site_name"
-						content="loom4k"
+						content="Loom's website on the IOT"
 						title="title"
 					/>
 					<meta
@@ -32,7 +32,7 @@ export default class CustomDocument extends Document {
 					/>
 					<meta
 						name="keywords"
-						content="loïk, loik, mallat, dev, loom4k"
+						content="loïk, loik, mallat, dev, loom4k, loom, loom website"
 					/>
 					<meta name="og:image" content={Avatar} />
 					<meta name="twitter:image" content={Favicon} />
