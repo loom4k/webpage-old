@@ -103,7 +103,7 @@ export const Hero: FC = () => {
 								<img
 									loading="lazy"
 									className="md:h-128 md:w-128 w-full max-w-lg object-cover rounded-3xl md:rounded-br-none"
-									src="https://i.imgur.com/ReT2l6r.gif"
+									src="https://cdn.discordapp.com/emojis/905248476777033758.png?size=44"
 									alt="Avatar"
 									draggable={false}
 									width="auto"
