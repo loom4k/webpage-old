@@ -29,12 +29,10 @@ export const About: FC = () => {
 								<span className="text-green-500">
 									loom4k
 								</span>
-								). I am a High-School Student from Canada, Montreal who 
-								codes for personnal projects and for school (NodeJS &amp;
-								React) for{" "}
+								). I am a High-School Student from Canada, Montreal who has been
+								coding for personnal projects and for school for{" "}
 								{new Date().getFullYear() - 2019} years now. I am currently
-								working on Node Modules for Developpers as well as other personnal
-								projects.
+								working on Minecraft Plugins in Java and Blockchain technology.
 							</p>
 							<ul className="text-gray-500 font-bold">
 								<li className="flex mb-4">
@@ -51,7 +49,7 @@ export const About: FC = () => {
 										></path>
 									</svg>
 									<span>
-										JavaScript (NodeJS &amp; Html)
+										Java
 									</span>
 								</li>
 								<li className="flex mb-4">
@@ -82,7 +80,22 @@ export const About: FC = () => {
 											clipRule="evenodd"
 										></path>
 									</svg>
-									<span>NoSQL (MongoDB &amp; Redis)</span>
+									<span>SQL &amp; NoSQL</span>
+								</li>
+								<li className="flex mb-4">
+									<svg
+										className="mr-2 w-6 h-6 text-green-400"
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 20 20"
+										fill="currentColor"
+									>
+										<path
+											fillRule="evenodd"
+											d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+											clipRule="evenodd"
+										></path>
+									</svg>
+									<span>And more!</span>
 								</li>
 							</ul>
 						</div>

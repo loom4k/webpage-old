@@ -27,24 +27,18 @@ export const Hero: FC = () => {
 										over {new Date().getFullYear() - 2019}{" "}
 										years
 									</span>{" "}
-									experience. More interested with{" "}
+									experience. More interested in{" "}
 									<Link href="https://www.typescriptlang.org/">
 										<span className="text-blue-600 dark:text-blue-400 cursor-pointer">
 											TypeScript
 										</span>
 									</Link>
 									,{" "}
-									<Link href="https://reactjs.org/">
-										<span className="text-red-600 dark:text-red-400 cursor-pointer">
-											ReactJS
+									<Link href="https://www.java.com/">
+										<span className="bg-darkOrange dark:bg-darkOrange cursor-pointer">
+											Java
 										</span>
 									</Link>
-									,{" "}
-									<Link href="https://nextjs.org/">
-										<span className="text-indigo-700 dark:text-indigo-300 cursor-pointer">
-											NextJS
-										</span>
-									</Link>{" "}
 									and{" "}
 									<Link href="https://microsoft.com/">
 										<span className="text-blue-600 dark:text-blue-300 cursor-pointer">
