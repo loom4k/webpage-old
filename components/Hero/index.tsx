@@ -35,7 +35,7 @@ export const Hero: FC = () => {
 									</Link>
 									,{" "}
 									<Link href="https://www.java.com/">
-										<span className="bg-darkOrange dark:bg-darkOrange cursor-pointer">
+										<span className="text-darkOrange dark:text-darkOrange cursor-pointer">
 											Java
 										</span>
 									</Link>
