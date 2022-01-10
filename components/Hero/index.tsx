@@ -39,7 +39,7 @@ export const Hero: FC = () => {
 											Java
 										</span>
 									</Link>
-									and{" "}
+									{" "}and{" "}
 									<Link href="https://microsoft.com/">
 										<span className="text-blue-600 dark:text-blue-300 cursor-pointer">
 											C#
