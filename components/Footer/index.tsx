@@ -26,11 +26,6 @@ export const Footer: FC = () => {
 				<div className="mt-2">
 					&copy; {new Date().getFullYear()} All rights reserved. Made
 					with ❤ by{" "}
-					<Link href="https://github.com/barbarbar338">
-						<span className="text-purple-600 cursor-pointer">
-							barbarbar338{" "}
-						</span>
-					</Link>and {" "}
 					<Link href="https://github.com/loom4k">
 						<span className="text-purple-600 cursor-pointer">
 							loom4k
