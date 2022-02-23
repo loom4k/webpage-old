@@ -18,12 +18,12 @@ module.exports = withPlugins([[optimizedImages, { optimizeImages: false }]], {
 			},
 			{
 				source: "/discord",
-				destination: "https://discord.gg/UEpXxAw8nP",
+				destination: "https://discord.gg/y4a5CwPHNE",
 				permanent: true,
 			},
 			{
-				source: "/exchange",
-				destination: "https://discord.gg/9zj8sWsKzW",
+				source: "/fiverr",
+				destination: "https://www.fiverr.com/lokmallat/code-a-custom-minecraft-plugin",
 				permanent: true,
 			},
 		];
