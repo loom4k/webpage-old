@@ -118,10 +118,6 @@ export const Contact: FC = () => {
 						rel="noreferrer"
 					>
 						<div className="cursor-pointer px-4 flex items-center">
-							<FontAwesomeIcon
-								icon={social.icon}
-								className="inline-block w-6 h-6 mr-3 text-white-600"
-							/>
 							<span>{social.name}</span>
 						</div>
 					</a>
