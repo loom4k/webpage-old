@@ -44,15 +44,6 @@ export const Footer: FC = () => {
 						</span>
 					</Link>
 				</div>
-				<div className="md:flex-auto md:flex-row-reverse mt-2 flex-row flex text-green-600 dark:text-green-400">
-					{socials.map((social, idx) => (
-						<Link key={idx} href={social.href}>
-							<span className="cursor-pointer w-6 mx-1">
-								<FontAwesomeIcon icon={social.icon} />
-							</span>
-						</Link>
-					))}
-				</div>
 			</div>
 		</div>
 	);
