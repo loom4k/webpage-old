@@ -40,10 +40,6 @@ const RepoCard: FC<IRepoCard> = ({
 								<div className="flex items-center space-x-1">
 									<div className="flex items-center space-x-1">
 										<span>{stargazers_count}</span>{" "}
-										<FontAwesomeIcon
-											icon={faStar}
-											className="w-6 h-6 text-yellow-600"
-										/>
 									</div>
 								</div>
 							</div>
