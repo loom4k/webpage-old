@@ -141,10 +141,6 @@ export const Navbar: FC = () => {
 						onClick={onClose}
 						className="flex items-center text-gray-900 dark:text-white p-3 focus:outline-none"
 					>
-						<FontAwesomeIcon
-							icon={faBars}
-							className="block h-4 w-4 fill-current"
-						/>
 					</button>
 				</div>
 				<ul className="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:flex lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6">
@@ -207,10 +203,6 @@ export const Navbar: FC = () => {
 							onClick={onClose}
 							className="focus:outline-none"
 						>
-							<FontAwesomeIcon
-								icon={faTimes}
-								className="h-6 w-6 cursor-pointer text-black dark:text-gray-400 hover:text-gray-500 dark:hover:text-gray-500"
-							/>
 						</button>
 					</div>
 					<div>
@@ -271,10 +263,6 @@ export const Navbar: FC = () => {
 									target="_blank"
 									rel="noreferrer"
 								>
-									<FontAwesomeIcon
-										icon={social.icon}
-										className="cursor-pointer inline-block text-black dark:text-white mx-2"
-									/>
 								</a>
 							))}
 						</div>
@@ -292,7 +280,6 @@ export const Navbar: FC = () => {
 					top ? "block" : "hidden"
 				} fixed bottom-0 right-0 mx-10 lg:mx-20 my-10 z-50 text-white w-10 h-10 bg-green-400 rounded-full focus:outline-none`}
 			>
-				<FontAwesomeIcon icon={faArrowUp} />
 			</m.button>
 			<m.button
 				aria-label="Change Theme"
@@ -303,16 +290,6 @@ export const Navbar: FC = () => {
 				onClick={onTheme}
 				className="block fixed bottom-0 left-0 mx-10 lg:mx-20 my-10 z-50 text-white w-10 h-10 bg-green-400 rounded-full focus:outline-none"
 			>
-				<FontAwesomeIcon
-					icon={icon}
-					className={
-						color === "yellow"
-							? "text-yellow-400 text-bold"
-							: color === "gray"
-							? "text-gray-400 text-bold"
-							: "text-blue-400 text-bold"
-					}
-				/>
 			</m.button>
 		</>
 	);
