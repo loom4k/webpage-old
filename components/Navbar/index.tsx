@@ -164,7 +164,7 @@ export const Navbar: FC = () => {
 						</Fragment>
 					))}
 				</ul>
-				<Link href="https://forum.loom4k.me">
+				<Link href="/discord">
 					<m.span
 						whileHover={{
 							scale: 1.1,
@@ -174,7 +174,7 @@ export const Navbar: FC = () => {
 						}}
 						className="cursor-pointer hidden lg:inline-block py-2 px-6 bg-green-400 hover:bg-green-600 text-sm text-white font-bold rounded-l-xl rounded-t-xl transition duration-200"
 					>
-						Forums
+						Discord
 					</m.span>
 				</Link>
 			</nav>
@@ -269,28 +269,6 @@ export const Navbar: FC = () => {
 					</div>
 				</nav>
 			</div>
-			<m.button
-				aria-label="Go Up"
-				whileHover={{ scale: 1.1 }}
-				whileTap={{
-					scale: 0.9,
-				}}
-				onClick={onUp}
-				className={`${
-					top ? "block" : "hidden"
-				} fixed bottom-0 right-0 mx-10 lg:mx-20 my-10 z-50 text-white w-10 h-10 bg-green-400 rounded-full focus:outline-none`}
-			>
-			</m.button>
-			<m.button
-				aria-label="Change Theme"
-				whileHover={{ scale: 1.1 }}
-				whileTap={{
-					scale: 0.9,
-				}}
-				onClick={onTheme}
-				className="block fixed bottom-0 left-0 mx-10 lg:mx-20 my-10 z-50 text-white w-10 h-10 bg-green-400 rounded-full focus:outline-none"
-			>
-			</m.button>
 		</>
 	);
 };
