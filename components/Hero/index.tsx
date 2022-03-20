@@ -49,7 +49,7 @@ export const Hero: FC = () => {
 									<Status />
 								</p>
 								<div>
-									<Link href="#about">
+									<Link href="/discord">
 										<m.span
 											whileHover={{
 												scale: 1.05,
@@ -59,7 +59,7 @@ export const Hero: FC = () => {
 											}}
 											className="cursor-pointer inline-block mb-3 lg:mb-0 lg:mr-3 w-full lg:w-auto py-2 px-6 leading-loose text-gray-900 bg-green-400 hover:bg-white text-gray-500 font-semibold rounded-l-xl rounded-t-xl transition duration-200"
 										>
-											About Me
+											Discord
 										</m.span>
 									</Link>
 									<Link href="#contact">
